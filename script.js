@@ -1,23 +1,12 @@
 // script.js
 function nextPage() {
   alert("This button could link to another page!");
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Redirect Button</title>
-</head>
-<body>
-
-  <h1>Click the Button to Visit Our Site</h1>
+  // Or redirect to another page:
+  // window.location.href = "nextpage.html";
   <button onclick="goToWebsite()">Go to CMHA Durham</button>
 
   <script>
     function goToWebsite() {
-      window.location.href = "https://cmhadurham.ca"; // Replace with your desired URL
+      window.location.href = "https://docs.github.com/en/pages";
     }
-  </script>
-
-</body>
-</html>
 
