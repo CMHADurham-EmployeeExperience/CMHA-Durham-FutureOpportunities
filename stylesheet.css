@@ -1,10 +1,10 @@
 /* style.css */
 body {
-  font-family: Times New Roman, sans-serif;
+  font-family: "Times New Roman", serif;
   text-align: center;
   font-size: 40px;
   padding: 5px;
-  background-color: Linear gradient 90°: #0097b2, #9ff7a2;
+  background: linear-gradient(90deg, #0097b2, #9ff7a2);
 }
 
 button {
@@ -13,7 +13,7 @@ button {
   background-color: #0284c7;
   color: white;
   border: none;
-  cursor: pen;
+  cursor: pointer;
 }
 
 button:hover {
