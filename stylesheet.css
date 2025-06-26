@@ -18,11 +18,11 @@ button {
 
 .top-corner-img {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 80px;    /* Change as needed */
+  top: 100px;
+  right: 100px;
+  width: 600px;   
   height: auto;
-  z-index: 1000;  /* Ensures it stays on top */
+  z-index: 1000;  
 }
 
 button:hover {
