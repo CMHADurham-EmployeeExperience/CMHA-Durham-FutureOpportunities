@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clickable Box</title>
+  <style>
+    .clickable-box {
+      width: 200px;
+      height: 150px;
+      background-color: #4CAF50;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .clickable-box:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Box that links to another page -->
+  <a href="https://example.com" target="_blank" style="text-decoration: none;">
+    <div class="clickable-box">
+      Click Me
+    </div>
+  </a>
+
+</body>
+</html>
