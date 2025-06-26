@@ -16,6 +16,15 @@ button {
   cursor: pointer;
 }
 
+.top-corner-img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 80px;    /* Change as needed */
+  height: auto;
+  z-index: 1000;  /* Ensures it stays on top */
+}
+
 button:hover {
   background-color: #0369a1;
 }
