@@ -17,7 +17,6 @@ button {
   cursor: pointer;
 }
 
-/* Moved .button-class out of button */
 .button-class {
   margin-right: 10px; 
 }
