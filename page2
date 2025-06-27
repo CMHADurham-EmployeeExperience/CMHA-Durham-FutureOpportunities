@@ -9,15 +9,12 @@
 
   <h1 class="top-left-title">CMHA-Durham</h1>
 
-  <button onclick="location.href='page1.html'">Registered Health Professional</button>
+  <button onclick="location.href='index.html'">Registered Health Professional</button>
   <button onclick="location.href='page2.html'">Social Service</button>
   <button onclick="location.href='page3.html'">Administrative Support</button>
   <button onclick="location.href='page4.html'">Finance</button>
 
   <img src="Logo.png" alt="Corner Image" class="top-corner-img">
   
-  <script src="script2.js"></script>
-
-  <script src="script2.js" defer></script>
 </body>
 </html>
