@@ -15,8 +15,10 @@ button {
   color: white;
   border: none;
   cursor: pointer;
-  align: center;
-  .button-class {
+}
+
+/* Moved .button-class out of button */
+.button-class {
   margin-right: 10px; 
 }
 
@@ -24,7 +26,6 @@ button {
   display: flex;      
   gap: 15px;          
   justify-content: center;
-
 }
 
 .top-corner-img {
