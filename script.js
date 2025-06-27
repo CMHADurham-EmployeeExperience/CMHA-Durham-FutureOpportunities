@@ -1,3 +1,3 @@
 function goToWebsite() {
-  window.location.href = "page2.html";
+  window.location.href = "https://cmhadurham-futureopportunities.my.canva.site/cmhadurham";
 }
