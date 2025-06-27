@@ -1,7 +1,7 @@
 /* style.css */
 body {
   font-family: "Marcellus", serif;
-  font-size: 40px;
+  font-size: 20px;
   color: white;
   padding: 50px;
   margin-top: 20px;
@@ -20,9 +20,9 @@ button {
 
 .top-corner-img {
   position: absolute;
-  top: 80px;
-  right: 100px;
-  width: 500px;   
+  top: 40px;
+  right: 50px;
+  width: 300px;   
   height: auto;
   z-index: 1000;  
 }
