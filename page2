@@ -13,8 +13,8 @@
 
   <img src="Logo.png" alt="Corner Image" class="top-corner-img">
   
-  <script src="script.js"></script>
+  <script src="script2.js"></script>
 
-  <script src="script.js" defer></script>
+  <script src="script2.js" defer></script>
 </body>
 </html>
