@@ -1,7 +1,7 @@
 /* style.css */
 body {
   font-family: "Marcellus", serif;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   padding: 50px;
   margin-top: 20px;
@@ -22,7 +22,7 @@ button {
   position: absolute;
   top: 40px;
   right: 50px;
-  width: 100px;   
+  width: 300px;   
   height: auto;
   z-index: 1000;  
 }
