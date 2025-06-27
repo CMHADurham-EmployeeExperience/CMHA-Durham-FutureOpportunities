@@ -9,7 +9,10 @@
 
   <h1 class="top-left-title">CMHA-Durham</h1>
 
-  <button onclick="window.location.href='index.html'">Go to Registered Health Professionals</button>
+  <button onclick="location.href='page1.html'">Registered Health Professional</button>
+  <button onclick="location.href='page2.html'">Social Service</button>
+  <button onclick="location.href='page3.html'">Administrative Support</button>
+  <button onclick="location.href='page4.html'">Finance</button>
 
   <img src="Logo.png" alt="Corner Image" class="top-corner-img">
   
