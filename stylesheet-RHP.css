@@ -16,6 +16,15 @@ button {
   border: none;
   cursor: pointer;
   align: center;
+  .button-class {
+  margin-right: 10px; 
+}
+
+.button-container {
+  display: flex;      
+  gap: 15px;          
+  justify-content: center;
+
 }
 
 .top-corner-img {
