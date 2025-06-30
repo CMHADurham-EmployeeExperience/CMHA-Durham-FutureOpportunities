@@ -23,3 +23,12 @@ ul {
   height: auto;
   z-index: 1000;  
 }
+
+.bottom-corner-img {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  width: 300px;   
+  height: auto;
+  z-index: 1000;  
+}
