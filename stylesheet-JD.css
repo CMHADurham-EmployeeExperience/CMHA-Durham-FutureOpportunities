@@ -24,11 +24,24 @@ ul {
   z-index: 1000;  
 }
 
-.bottom-right-corner-img {
-  position: absolute;
-  bottom: 40px;
-  right: 50px;
-  width: 20px;   
+.bottom-right-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.8);
+  padding: 10px;
+  border-radius: 8px 0 0 0;
+}
+
+.side-image {
+  width: 20px;  
   height: auto;
-  z-index: 1000;  
+  margin-right: 10px;
+}
+
+.side-text {
+  font-size: 20px;
+  color: black
 }
