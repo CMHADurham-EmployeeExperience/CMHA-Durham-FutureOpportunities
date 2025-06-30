@@ -1,21 +1,17 @@
-/* style.css */
 body {
   font-family: "Marcellus", serif;
-  font-size: 20px;
   color: white;
   padding: 50px;
   margin-top: 20px;
   background: linear-gradient(90deg, #0097b2, #9ff7a2);
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 25px;
-  background-color: #0284c7;
-  color: white;
-  border: none;
-  cursor: pointer;
-  align: center;
+h1 {
+  font-size: 50px; 
+}
+
+ul {
+  font-size: 18px; 
 }
 
 .top-corner-img {
@@ -25,8 +21,4 @@ button {
   width: 300px;   
   height: auto;
   z-index: 1000;  
-}
-
-button:hover {
-  background-color: #0369a1;
 }
