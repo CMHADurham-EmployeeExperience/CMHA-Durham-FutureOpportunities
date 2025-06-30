@@ -7,12 +7,12 @@ body {
 
 h1 {
   font-size: 100px; 
-  color: white
+  color: white;
 }
 
 ul {
   font-size: 30px; 
-  color: black
+  color: black;
 }
 
 .top-corner-img {
@@ -24,7 +24,7 @@ ul {
   z-index: 1000;  
 }
 
-.bottom-corner-img {
+.bottom-right-corner-img {
   position: absolute;
   top: 40px;
   right: 50px;
