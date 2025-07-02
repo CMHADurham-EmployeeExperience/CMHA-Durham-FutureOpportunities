@@ -15,9 +15,8 @@ ul {
   color: black;
 }
   
-}
 .top-corner-img {
-  position: fixed;
+  position: absolute;
   top: 40px;
   right: 50px;
   width: 50px;   
