@@ -25,24 +25,21 @@ ul {
   z-index: 1000;  
 }
 
-.bottom-right-container {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  background: rgba(255,255,255,0.8);
-  padding: 5px;
-  border-radius: 8px 0 0 0;
+.side-container {
+  width: 300px;
+  transition: width 0.3s;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.side-image {
-  width: 150px;  
-  height: auto;
-  margin-right: 10px;
+.side-image, .side-text {
+  transition: transform 0.3s, opacity 0.3s;
+  transform: scale(0.8);  
+  opacity: 0.6;           
 }
 
-.side-text {
-  font-size: 20px;
-  color: black
+.side-container:hover .side-image,
+.side-container:hover .side-text {
+  transform: scale(1);    
+  opacity: 1;             
 }
