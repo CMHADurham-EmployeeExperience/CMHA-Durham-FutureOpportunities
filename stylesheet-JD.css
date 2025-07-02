@@ -17,7 +17,7 @@ ul {
   
 }
 .top-corner-img {
-  position: absolute;
+  position: fixed;
   top: 40px;
   right: 50px;
   width: 10px;   
